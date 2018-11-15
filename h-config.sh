@@ -63,4 +63,3 @@ conf="-o ${pool} -u ${CUSTOM_TEMPLATE} -p ${CUSTOM_PASS}$algo$variant ${CUSTOM_U
 
 [[ -z $CUSTOM_CONFIG_FILENAME ]] && echo -e "${RED}No CUSTOM_CONFIG_FILENAME is set${NOCOLOR}" && return 1
 echo "$conf" > $CUSTOM_CONFIG_FILENAME
-
